@@ -97,13 +97,16 @@
 	total_positions = 1
 	spawn_positions = 1
 	flag = CEO
-	wage = 9000
+	wage = 30000
 	outfit_type = /decl/hierarchy/outfit/job/nanotrasen/ceo
 	idtype = /obj/item/weapon/card/id/nanotrasen/ceo
+	supervisors = "your conscience and the Gods"
+	subordinates = "everyone, basically"
 
-	description = "As vice president, your duty is to patiently wait in line for the president to be killed so you can succeed them. Otherwise you're \
-	there to help president do his daily tasks."
+	description = "You're the big man on campus. For some God-forsaken reason, you've decided to visit the colony - you have an ungodly 'wage', in reality \
+	just taking a pittance from your nigh-infinite pool of funds."
 
+	minimum_character_age = 18
 	portal_whitelist = "cabinet_ceo"
 	access = list(access_ceo, access_advisor, access_cent_general, access_cent_thunder, access_cent_medical, access_cent_living, access_cent_storage, access_cent_teleporter) 			//See get_access()
 	minimal_access = list(access_ceo, access_advisor, access_cent_general, access_cent_thunder, access_cent_medical, access_cent_living, access_cent_storage, access_cent_teleporter) 	//See get_access()
