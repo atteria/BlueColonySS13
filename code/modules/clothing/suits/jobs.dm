@@ -88,7 +88,8 @@
 /obj/item/clothing/suit/security/rangerofficer
 	name = "ranger jacket"
 
-	desc = "This worn and rugged jacket is for those who cant just catch a break."
+	desc = "This worn and rugged jacket gives off an aura of exhaustion. This design is often worn by Ranger Officers."
+
 	icon_state = "ranger_Officer's_coat"
 	item_state_slots = list(slot_r_hand_str = "suit_navy", slot_l_hand_str = "suit_navy")
 	body_parts_covered = UPPER_TORSO|LOWER_TORSO|ARMS
