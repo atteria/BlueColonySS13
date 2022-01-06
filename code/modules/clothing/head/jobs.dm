@@ -185,7 +185,8 @@
 /obj/item/clothing/head/police/rangerofficer
 	name = "ranger hat"
 
-	desc = "A brown  campaign hat belonging to a Ranger officer"
+	desc = "A brown campaign hat, often worn by Ranger Officers."
+
 	icon_state = "Ranger_Officerhat"
 	item_state_slots = list(slot_r_hand_str = "bluesoft", slot_l_hand_str = "bluesoft")
 
