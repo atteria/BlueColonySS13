@@ -402,7 +402,8 @@ BLIND     // can't see anything
 	icon_state = "aviator"
 
 /obj/item/clothing/glasses/fakesunglasses/ranger
-	name = "Ranger Aviator's"
+	name = "ranger aviators"
+
 	desc = "A pair of designer Aviator's. good for laying down the law bad for blocking flashes."
 	icon_state = "sun"
 	item_state_slots = list(slot_r_hand_str = "sunglasses", slot_l_hand_str = "sunglasses")
