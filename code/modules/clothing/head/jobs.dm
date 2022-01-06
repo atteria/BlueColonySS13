@@ -182,6 +182,15 @@
 	icon_state = "policeofficercap"
 	item_state_slots = list(slot_r_hand_str = "bluesoft", slot_l_hand_str = "bluesoft")
 
+/obj/item/clothing/head/police/rangerofficer
+	name = "ranger hat"
+
+	desc = "A brown campaign hat, often worn by Ranger Officers."
+
+	icon_state = "Ranger_Officerhat"
+	item_state_slots = list(slot_r_hand_str = "bluesoft", slot_l_hand_str = "bluesoft")
+
+
 /obj/item/clothing/head/police/policecadetcap
 	name = "police cadets's cap"
 	desc = "A blue peaked cap belonging to a police office"
