@@ -204,7 +204,8 @@
 	rolled_sleeves = 0
 
 /obj/item/clothing/under/rank/rangerofficer
-	desc = "a Ranger officer uniform, donut not included"
+	desc = "A uniform often worn by Ranger Officers. Donut not included."
+
 	name = "police officer's uniform"
 	icon_state = "ranger_officer"
 	item_state_slots = list(slot_r_hand_str = "darkblue", slot_l_hand_str = "darkblue")
