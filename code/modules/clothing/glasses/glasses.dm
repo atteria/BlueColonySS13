@@ -401,6 +401,12 @@ BLIND     // can't see anything
 	desc = "A pair of designer sunglasses. Doesn't seem like it'll block flashes."
 	icon_state = "aviator"
 
+/obj/item/clothing/glasses/fakesunglasses/ranger
+	name = "Ranger Aviator's"
+	desc = "A pair of designer Aviator's. good for laying down the law bad for blocking flashes."
+	icon_state = "sun"
+	item_state_slots = list(slot_r_hand_str = "sunglasses", slot_l_hand_str = "sunglasses")
+
 /obj/item/clothing/glasses/fakesunglasses/big
 	name = "big stylish sunglasses"
 	desc = "A pair of designer sunglasses. Doesn't seem like it'll block flashes."

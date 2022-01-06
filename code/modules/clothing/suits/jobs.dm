@@ -85,6 +85,14 @@
 	body_parts_covered = UPPER_TORSO|LOWER_TORSO|ARMS
 	flags_inv = HIDEHOLSTER
 
+/obj/item/clothing/suit/security/rangerofficer
+	name = "Ranger officer's jacket"
+	desc = "This worn and rugged jacket is for those who cant just catch a break."
+	icon_state = "ranger_Officer's_coat"
+	item_state_slots = list(slot_r_hand_str = "suit_navy", slot_l_hand_str = "suit_navy")
+	body_parts_covered = UPPER_TORSO|LOWER_TORSO|ARMS
+	flags_inv = HIDEHOLSTER
+
 /obj/item/clothing/suit/security/navywarden
 	name = "warden's jacket"
 	desc = "Perfectly suited for the warden that wants to leave an impression of style on those who visit the brig."
