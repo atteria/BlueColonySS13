@@ -20,9 +20,11 @@
 
 /decl/hierarchy/outfit/job/security/hos
 	name = OUTFIT_JOB_NAME("Chief of Police")
-	head = /obj/item/clothing/head/police/policechiefcap
+	head = /obj/item/clothing/head/police/oasischiefhat
 	l_ear = /obj/item/device/radio/headset/heads/hos
-	uniform = /obj/item/clothing/under/rank/policechiefalt
+	glasses = /obj/item/clothing/glasses/sunglasses/goldaviators
+	uniform = /obj/item/clothing/under/rank/OasisChief
+	suit = /obj/item/clothing/suit/security/oasischiefcoat
 	id_type = /obj/item/weapon/card/id/security/head
 	pda_type = /obj/item/device/pda/heads/hos
 	backpack_contents = list(/obj/item/weapon/handcuffs = 1,
@@ -66,8 +68,10 @@
 
 /decl/hierarchy/outfit/job/security/officer
 	name = OUTFIT_JOB_NAME("Police Officer")
-	head = /obj/item/clothing/head/police/policeofficercap
-	uniform = /obj/item/clothing/under/rank/policeofficeralt
+	head = /obj/item/clothing/head/police/rangerofficer
+	uniform = /obj/item/clothing/under/rank/rangerofficer
+	glasses = /obj/item/clothing/glasses/fakesunglasses/ranger
+	suit = /obj/item/clothing/suit/security/rangerofficer
 	l_pocket = /obj/item/device/flash
 	id_type = /obj/item/weapon/card/id/security/officer
 	pda_type = /obj/item/device/pda/security

@@ -213,6 +213,15 @@
 	siemens_coefficient = 0.9
 	rolled_sleeves = 0
 
+/obj/item/clothing/under/rank/OasisChief
+	desc = "And when he speaks he never says it twice <br> They call him Judge, his last name is Dredd <br> So break the law, and you wind up dead"
+	name = "police chief's uniform"
+	icon_state = "oasischief"
+	item_state_slots = list(slot_r_hand_str = "darkblue", slot_l_hand_str = "darkblue")
+	armor = list(melee = 10, bullet = 0, laser = 0,energy = 0, bomb = 0, bio = 0, rad = 0)
+	siemens_coefficient = 0.9
+	rolled_sleeves = 0
+
 /obj/item/clothing/under/rank/policecadetalt
 	desc = "a police cadets uniform, donut not included"
 	name = "police cadets's uniform"

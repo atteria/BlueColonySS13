@@ -187,7 +187,15 @@
 
 	desc = "A brown campaign hat, often worn by Ranger Officers."
 
-	icon_state = "Ranger_Officerhat"
+	icon_state = "ranger_officerhat"
+	item_state_slots = list(slot_r_hand_str = "bluesoft", slot_l_hand_str = "bluesoft")
+
+/obj/item/clothing/head/police/oasischiefhat
+	name = "ranger hat"
+
+	desc = "Respect the badge - he earned it with his blood <br> Fear the gun - your sentence may be death because..."
+
+	icon_state = "oasischiefhat"
 	item_state_slots = list(slot_r_hand_str = "bluesoft", slot_l_hand_str = "bluesoft")
 
 
