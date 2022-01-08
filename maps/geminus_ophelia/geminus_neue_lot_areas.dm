@@ -175,3 +175,99 @@
 	lot_id = "farmlot2"
 
 // Event Hall
+
+// Aboveground Slums
+
+/area/lots/slum/upperone
+	name = "Upper Slum 1"
+	lot_id = "upperslum1"
+
+/area/lots/slum/uppertwo
+	name = "Upper Slum 2"
+	lot_id = "upperslum2"
+
+/area/lots/slum/upperthree
+	name = "Upper Slum 3"
+	lot_id = "upperslum3"
+
+/area/lots/slum/upperfour
+	name = "Upper Slum 4"
+	lot_id = "upperslum4"
+
+/area/lots/slum/upperfive
+	name = "Upper Slum 5"
+	lot_id = "upperslum5"
+
+/area/lots/slum/uppersix
+	name = "Upper Slum 6"
+	lot_id = "upperslum6"
+
+/area/lots/slum/upperseven
+	name = "Upper Slum 7"
+	lot_id = "upperslum7"
+
+/area/lots/slum/uppereight
+	name = "Upper Slum 8"
+	lot_id = "upperslum8"
+
+/area/lots/slum/uppernine
+	name = "Upper Slum 9"
+	lot_id = "upperslum9"
+
+/area/lots/slum/upperten
+	name = "Upper Slum 10"
+	lot_id = "upperslum10"
+
+/area/lots/slum/uppereleven
+	name = "Upper Slum 11"
+	lot_id = "upperslum11"
+
+/area/lots/slum/uppertwelve
+	name = "Upper Slum 12"
+	lot_id = "upperslum12"
+
+/area/lots/slum/upperthirteen
+	name = "Upper Slum 13"
+	lot_id = "upperslum13"
+
+/area/lots/slum/upperfourteen
+	name = "Upper Slum 14"
+	lot_id = "upperslum14"
+
+// underground slums
+
+/area/lots/slum/lowerone
+	name = "Lower Slum 1"
+	lot_id = "lowerslum1"
+
+/area/lots/slum/lowertwo
+	name = "Lower Slum 2"
+	lot_id = "lowerslum2"
+
+/area/lots/slum/lowerthree
+	name = "Lower Slum 3"
+	lot_id = "lowerslum3"
+
+/area/lots/slum/lowerfour
+	name = "Lower Slum 4"
+	lot_id = "lowerslum4"
+
+/area/lots/slum/lowerfive
+	name = "Lower Slum 5"
+	lot_id = "lowerslum5"
+
+/area/lots/slum/lowersix
+	name = "Lower Slum 6"
+	lot_id = "lowerslum6"
+
+/area/lots/slum/lowerseven
+	name = "Lower Slum 7"
+	lot_id = "lowerslum7"
+
+/area/lots/slum/lowereight
+	name = "Lower Slum 8"
+	lot_id = "lowerslum8"
+
+/area/lots/slum/lowernine
+	name = "Lower Slum 9"
+	lot_id = "lowerslum9"
