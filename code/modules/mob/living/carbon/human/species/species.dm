@@ -69,8 +69,8 @@
 
 	//Soundy emotey things.
 	var/scream_verb = "screams"
-	var/male_scream_sound		= 'sound/voice/human/man_scream.ogg'
-	var/female_scream_sound	= 'sound/voice/human/woman_scream.ogg'
+	var/male_scream_sound		= list('sound/voice/human/man_scream.ogg','sound/voice/human/malescream_1.ogg','sound/voice/human/malescream_2.ogg','sound/voice/human/malescream_3.ogg','sound/voice/human/malescream_4.ogg','sound/voice/human/malescream_5.ogg','sound/voice/human/malescream_6.ogg')
+	var/female_scream_sound	= list('sound/voice/human/femalescream_1.ogg','sound/voice/human/femalescream_2.ogg','sound/voice/human/femalescream_3.ogg','sound/voice/human/femalescream_4.ogg','sound/voice/human/femalescream_1.ogg')
 	var/male_cough_sounds = list('sound/effects/mob_effects/m_cougha.ogg','sound/effects/mob_effects/m_coughb.ogg', 'sound/effects/mob_effects/m_coughc.ogg')
 	var/female_cough_sounds = list('sound/effects/mob_effects/f_cougha.ogg','sound/effects/mob_effects/f_coughb.ogg')
 	var/male_sneeze_sound = 'sound/effects/mob_effects/sneeze.ogg'
