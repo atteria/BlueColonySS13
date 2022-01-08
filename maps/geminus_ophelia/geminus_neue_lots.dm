@@ -299,3 +299,140 @@
 	name = "Farmlot 2"
 	id = "farmlot2"
 	desc =" "
+	
+// aboveground slums
+
+/datum/lot/slum
+	price = 2612
+	licenses = list(LICENSE_LANDLORD_COMMERCIAL)
+
+/datum/lot/slum/upperone
+	name = "Upper Slum 1"
+	id = "upperslum1"
+	desc =" "
+	price = 1876
+
+/datum/lot/slum/uppertwo
+	name = "Upper Slum 2"
+	id = "upperslum2"
+	desc =" "
+
+/datum/lot/slum/upperthree
+	name = "Upper Slum 3"
+	id = "upperslum3"
+	desc =" "
+
+/datum/lot/slum/upperfour
+	name = "Upper Slum 4"
+	id = "upperslum4"
+	desc =" "
+
+/datum/lot/slum/upperfive
+	name = "Upper Slum 5"
+	id = "upperslum5"
+	desc =" "
+	price = 1876
+
+/datum/lot/slum/uppersix
+	name = "Upper Slum 6"
+	id = "upperslum6"
+	desc =" "
+
+/datum/lot/slum/upperseven
+	name = "Upper Slum 7"
+	id = "upperslum7"
+	desc =" "
+
+/datum/lot/slum/uppereight
+	name = "Upper Slum 8"
+	id = "upperslum8"
+	desc =" "
+
+/datum/lot/slum/uppernine
+	name = "Upper Slum 9"
+	id = "upperslum9"
+	desc =" "
+
+/datum/lot/slum/upperten
+	name = "Upper Slum 10"
+	id = "upperslum10"
+	desc =" "
+
+/datum/lot/slum/uppereleven
+	name = "Upper Slum 11"
+	id = "upperslum11"
+	desc =" "
+
+/datum/lot/slum/uppertwelve
+	name = "Upper Slum 12"
+	id = "upperslum12"
+	desc =" "
+	price = 3073
+
+/datum/lot/slum/upperthirteen
+	name = "Upper Slum 13"
+	id = "upperslum13"
+	desc =" "
+	price = 3073
+
+/datum/lot/slum/upperfourteen
+	name = "Upper Slum 14"
+	id = "upperslum14"
+	desc =" "
+	price = 3324
+
+// underground slums
+
+/datum/lot/slum/lowerone
+	name = "Lower Slum 1"
+	id = "lowerslum1"
+	desc =" "
+	price = 3581
+
+/datum/lot/slum/lowertwo
+	name = "Lower Slum 2"
+	id = "lowerslum2"
+	desc =" "
+	price = 1017
+
+/datum/lot/slum/lowerthree
+	name = "Lower Slum 3"
+	id = "lowerslum3"
+	desc =" "
+	price = 1017
+
+/datum/lot/slum/lowerfour
+	name = "Lower Slum 4"
+	id = "lowerslum4"
+	desc =" "
+	price = 1017
+
+/datum/lot/slum/lowerfive
+	name = "Lower Slum 5"
+	id = "lowerslum5"
+	desc =" "
+	price = 1017
+
+/datum/lot/slum/lowersix
+	name = "Lower Slum 6"
+	id = "lowerslum6"
+	desc =" "
+	price = 1017
+
+/datum/lot/slum/lowerseven
+	name = "Lower Slum 7"
+	id = "lowerslum7"
+	desc =" "
+	price = 1017
+
+/datum/lot/slum/lowereight
+	name = "Lower Slum 8"
+	id = "lowerslum8"
+	desc =" "
+	price = 1017
+
+/datum/lot/slum/lowernine
+	name = "Lower Slum 9"
+	id = "lowerslum9"
+	desc =" "
+	price = 1017

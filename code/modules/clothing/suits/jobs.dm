@@ -85,6 +85,27 @@
 	body_parts_covered = UPPER_TORSO|LOWER_TORSO|ARMS
 	flags_inv = HIDEHOLSTER
 
+/obj/item/clothing/suit/security/rangerofficer
+	name = "ranger jacket"
+
+	desc = "This worn and rugged jacket gives off an aura of exhaustion. This design is often worn by Ranger Officers."
+
+	icon_state = "ranger_officer's_coat"
+	item_state_slots = list(slot_r_hand_str = "suit_navy", slot_l_hand_str = "suit_navy")
+	body_parts_covered = UPPER_TORSO|LOWER_TORSO|ARMS
+	flags_inv = HIDEHOLSTER
+
+/obj/item/clothing/suit/security/chiefcoat
+	name = "rugged chief coat"
+
+	desc = "This jacket has several coffee stains and smells like cigarette smoke. This design is usually worn by high-ranking Ranger Officers."
+
+	icon_state = "ranger_chief_coat"
+	item_state_slots = list(slot_r_hand_str = "suit_navy", slot_l_hand_str = "suit_navy")
+	body_parts_covered = UPPER_TORSO|LOWER_TORSO|ARMS
+	flags_inv = HIDEHOLSTER
+
+
 /obj/item/clothing/suit/security/navywarden
 	name = "warden's jacket"
 	desc = "Perfectly suited for the warden that wants to leave an impression of style on those who visit the brig."

@@ -97,13 +97,16 @@
 	total_positions = 1
 	spawn_positions = 1
 	flag = CEO
-	wage = 9000
+	wage = 30000
 	outfit_type = /decl/hierarchy/outfit/job/nanotrasen/ceo
 	idtype = /obj/item/weapon/card/id/nanotrasen/ceo
+	supervisors = "your conscience and the Gods"
+	subordinates = "everyone, basically"
 
-	description = "As vice president, your duty is to patiently wait in line for the president to be killed so you can succeed them. Otherwise you're \
-	there to help president do his daily tasks."
+	description = "You're the big man on campus. For some God-forsaken reason, you've decided to visit the colony - you have an ungodly 'wage', in reality \
+	just taking a pittance from your nigh-infinite pool of funds."
 
+	minimum_character_age = 18
 	portal_whitelist = "cabinet_ceo"
 	access = list(access_ceo, access_advisor, access_cent_general, access_cent_thunder, access_cent_medical, access_cent_living, access_cent_storage, access_cent_teleporter) 			//See get_access()
 	minimal_access = list(access_ceo, access_advisor, access_cent_general, access_cent_thunder, access_cent_medical, access_cent_living, access_cent_storage, access_cent_teleporter) 	//See get_access()
@@ -251,3 +254,29 @@
 	alt_titles = list("Advisor of Finance")
 
 	portal_whitelist = "cabinet_finance"
+	
+/datum/job/nanotrasen/ntofficer
+	title = "Nanotrasen Officer"
+	flag = NANOTRASEN
+	department = DEPT_NANOTRASEN
+	head_position = 0
+	department_flag = GOVLAW
+	faction = "City"
+	total_positions = -1
+	spawn_positions = -1
+	supervisors = "The NanoTrasen CEO"
+	selection_color = "#0F0F6F"
+	idtype = /obj/item/weapon/card/id/nanotrasen/ntrep
+	access = list(access_cent_general, access_cent_thunder, access_cent_medical, access_cent_living, access_cent_storage, access_cent_teleporter) 			//See get_access()
+	minimal_access = list(access_cent_general, access_cent_thunder, access_cent_medical, access_cent_living, access_cent_storage, access_cent_teleporter) 	//See get_access()
+	outfit_type = /decl/hierarchy/outfit/job/nanotrasen/officer
+
+	wage = 10000
+	minimum_character_age = 18
+	ideal_character_age = 40
+	hard_whitelisted = 1
+	no_shuttle = FALSE
+	description = "You are a mid-ranking officer of NanoTrasen, transferred from whatever you were doing to help out the NanoTrasen CEO here on Pollux. \
+	You answer to the CEO, and you actually outrank the President."
+	duties = list("Keep the government in check", "Walk around in your swanky gear", "Get shot by a disgruntled police officer")
+
