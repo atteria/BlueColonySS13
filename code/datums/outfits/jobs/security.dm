@@ -20,11 +20,11 @@
 
 /decl/hierarchy/outfit/job/security/hos
 	name = OUTFIT_JOB_NAME("Chief of Police")
-	head = /obj/item/clothing/head/police/oasischiefhat
+	/obj/item/clothing/head/police/rangerchiefhat
 	l_ear = /obj/item/device/radio/headset/heads/hos
 	glasses = /obj/item/clothing/glasses/sunglasses/goldaviators
-	uniform = /obj/item/clothing/under/rank/OasisChief
-	suit = /obj/item/clothing/suit/security/oasischiefcoat
+	uniform = /obj/item/clothing/under/rank/rangerchief
+	suit = /obj/item/clothing/suit/security/chiefcoat
 	id_type = /obj/item/weapon/card/id/security/head
 	pda_type = /obj/item/device/pda/heads/hos
 	backpack_contents = list(/obj/item/weapon/handcuffs = 1,

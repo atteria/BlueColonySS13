@@ -190,11 +190,10 @@
 	icon_state = "ranger_officerhat"
 	item_state_slots = list(slot_r_hand_str = "bluesoft", slot_l_hand_str = "bluesoft")
 
-/obj/item/clothing/head/police/oasischiefhat
-	name = "ranger hat"
+/obj/item/clothing/head/police/rangerchiefhat
+	name = "rugged wide-brimmed hat"
 
-	desc = "Respect the badge - he earned it with his blood <br> Fear the gun - your sentence may be death because..."
-
+	desc = "This ranger hat looks like it's been through some /shit./ Somehow, it still holds up - maybe through sheer force of will, if hats could possess such a thing."
 	icon_state = "oasischiefhat"
 	item_state_slots = list(slot_r_hand_str = "bluesoft", slot_l_hand_str = "bluesoft")
 
