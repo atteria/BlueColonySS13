@@ -6,9 +6,9 @@
 	cooperative = TRUE
 	firing_lanes = TRUE
 	var/rabid = FALSE	// Will attack regardless of discipline.
-	var/discipline = 0	// Beating slimes makes them less likely to lash out.  In theory.
+	var/discipline = 100	// Beating slimes makes them less likely to lash out.  In theory.
 	var/resentment = 0	// 'Unjustified' beatings make this go up, and makes it more likely for abused slimes to go rabid.
-	var/obedience = 0	// Conversely, 'justified' beatings make this go up, and makes discipline decay slower, potentially making it not decay at all.
+	var/obedience = 100	// Conversely, 'justified' beatings make this go up, and makes discipline decay slower, potentially making it not decay at all.
 
 	var/always_stun = FALSE // If true, the slime will elect to attempt to permastun the target.
 
