@@ -390,6 +390,11 @@ BLIND     // can't see anything
 	desc = "Strangely ancient technology used to help provide rudimentary eye cover. Larger than average enhanced shielding blocks many flashes."
 	icon_state = "bigsunglasses"
 
+/obj/item/clothing/glasses/sunglasses/goldaviators
+	name = "gold aviators"
+	desc = "These aviators are painted with a reflective gold sheen. Just looking at them makes you feel richer. Unlike police models, this pair has flash protection."
+	icon_state = "gold_aviators"
+
 /obj/item/clothing/glasses/fakesunglasses //Sunglasses without flash immunity
 	name = "stylish sunglasses"
 	desc = "A pair of designer sunglasses. Doesn't seem like it'll block flashes."
