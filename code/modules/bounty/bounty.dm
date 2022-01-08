@@ -56,8 +56,8 @@
 	var/cash_max = 0
 
 	//reward stuff
-	var/department_reward = 200 		// In credits.
-	var/individual_reward = 80		// In credits
+	var/department_reward = 100 		// In credits.
+	var/individual_reward = 40		// In credits
 	var/list/item_rewards = list()
 	var/cash_reward_min = 0
 	var/cash_reward_max = 0
