@@ -5,8 +5,8 @@ SUBSYSTEM_DEF(bounties)
 	var/list/bounty_types = list()
 	var/list/active_bounties = list()
 
-	var/bounty_interval = 1 HOUR
-	var/next_bounties = 1 HOUR
+	var/bounty_interval = 15 MINUTE
+	var/next_bounties = 15 MINUTE
 
 
 /datum/controller/subsystem/bounties/Initialize(timeofday)
