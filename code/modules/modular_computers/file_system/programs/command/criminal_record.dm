@@ -6,7 +6,7 @@
 	extended_desc = "Used to view and edit prison sentences post-trial."
 	requires_ntnet = 1
 	size = 12
-	required_access = access_judge
+	required_access = access_warrant
 
 /datum/nano_module/program/crim_record
 	name = "Criminal Record Management"
