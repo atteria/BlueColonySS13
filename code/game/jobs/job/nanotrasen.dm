@@ -158,16 +158,16 @@
 
 
 /datum/job/nanotrasen/pdsi
-	title = "PDSI Agent"
+	title = "OGAP Agent"
 	flag = PDSI
 	alt_titles = list(
-		"PDSI Director", "PDSI Supervisory Agent", "PDSI Senior Agent")
+		"OGAP Cadet", "OGAP Senior Agent")
 	head_position = 0
 	department_flag = GOVLAW
 	faction = "City"
 	total_positions = -1
 	spawn_positions = -1
-	supervisors = "the PDSI Director"
+	supervisors = "the President and NanoTrasen"
 
 	selection_color = "#0F0F6F"
 	idtype = /obj/item/weapon/card/id/nanotrasen/pdsi
@@ -177,13 +177,15 @@
 	outfit_type = /decl/hierarchy/outfit/job/nanotrasen/pdsi
 
 	wage = 4500
-	minimum_character_age = 25 // Pushing it I guess, but possible
+	minimum_character_age = 18 // Pushing it I guess, but possible
 	ideal_character_age = 37
 	req_admin_notify = 1
 
-	description = "PDSI agents are a bit like the FBI, but less cool. They exist to control the corruption in the city council and the police."
+	description = "OGAP Agents - Ophelian Governmental Asset Protection Agents - are the last line of defense between the President and those who would wish him harm. \
+	They also protect most other members of the Government, such as Advisors and the Vice. If there isn't any governmental people around, they help out the police force with \
+	investigations and chasing criminals."
 
-	duties = list("Get police reports instead of corruption reports", "Drink coffee", "Roll eyes at reports")
+	duties = list("Say 'GET DOWN MR. PRESIDENT' at every opportunity", "Accidentally shoot the Vice President", "Abandon the President to go beat up geese. because you're THE LAW")
 
 /datum/job/nanotrasen/pdsi/get_access()
 	return get_all_centcom_access()+get_all_station_access()
