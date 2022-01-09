@@ -137,7 +137,7 @@
 
 //Execution by grand piano!
 /atom/movable/proc/get_fall_damage()
-	return 42
+	return 10
 
 //If atom stands under open space, it can prevent fall, or not
 /atom/proc/can_prevent_fall(var/atom/movable/mover, var/turf/coming_from)
@@ -384,7 +384,7 @@
 		A.fall_impact(hit_atom, damage_min, damage_max, silent = TRUE)
 
 // Take damage from falling and hitting the ground
-/mob/living/fall_impact(var/atom/hit_atom, var/damage_min = 60, var/damage_max = 100, var/silent = FALSE, var/planetary = FALSE)
+/mob/living/fall_impact(var/atom/hit_atom, var/damage_min = 5, var/damage_max = 20, var/silent = FALSE, var/planetary = FALSE)
 	var/turf/landing = get_turf(hit_atom)
 	if(planetary && src.CanParachute())
 		if(!silent)
@@ -414,7 +414,7 @@
 
 		// Because wounds heal rather quickly, 10 (the default for this proc) should be enough to discourage jumping off but not be enough to ruin you, at least for the first time.
 		// Hits 10 times, because apparently targeting individual limbs lets certain species survive the fall from atmosphere
-		for(var/i = 1 to 10)
+		for(var/i = 1 to 5)
 			adjustBruteLoss(rand(damage_min, damage_max))
 		Weaken(4)
 		updatehealth()
