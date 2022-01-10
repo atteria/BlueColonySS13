@@ -894,25 +894,52 @@ menu "menu"
 		saved-params = "is-checked"
 	elem 
 		name = "Light Theme"
-		command = ".winset \" infowindow.info.background-color=#e5e5e5; infowindow.background-color=#e5e5e5; infowindow.info.text-color = #000000 infowindow.info.tab-text-color = #000000 infowindow.info.tab-background-color = #e5e5e5 rpane.background-color=#e5e5e5; rpane.rpanewindow.background-color=#e5e5e5;  rpane.textb.background-color=#FFFFFF; rpane.infob.background-color=#FFFFFF; rpane.forumb.background-color=#FFFFFF; rpane.rulesb.background-color=#cecece; rpane.mapb.background-color=#cecece; rpane.github.background-color=#FFFFFF; rpane.changelog.background-color=#FFFFFF; rpane.wikib.background-color=#FFFFFF; rpane.browseb.background-color=#FFFFFF;  rpane.textb.text-color=#000000; rpane.infob.text-color=#000000; rpane.forumb.text-color=#000000; rpane.rulesb.text-color=#000000; rpane.mapb.text-color=#000000; rpane.github.text-color=#000000; rpane.changelog.text-color=#000000; rpane.wikib.text-color=#000000; rpane.browseb.text-color=#000000;   mainwindow.background-color=#e5e5e5; mainwindow.input.background-color=#FFFFFF; mainwindow.oocbutton.background-color=#FFFFFF; mainwindow.loocbutton.background-color=#FFFFFF; mainwindow.saybutton.background-color=#FFFFFF; mainwindow.mebutton.background-color=#FFFFFF; mainwindow.nonebutton.background-color=#FFFFFF; mainwindow.hotkey_toggle.background-color=#FFFFFF; mainwindow.hotkey_toggle.text-color=#000000; mainwindow.input.text-color=#000000; mainwindow.oocbutton.text-color=#000000; mainwindow.loocbutton.text-color=#000000; mainwindow.saybutton.text-color=#000000; mainwindow.mebutton.text-color=#000000; mainwindow.nonebutton.text-color=#000000; \""
+		command = ".winset \" infowindow.info.background-color=#e5e5e5; infowindow.background-color=#e5e5e5; infowindow.info.text-color = #000000; infowindow.info.tab-text-color = #000000; infowindow.info.tab-background-color = #e5e5e5 rpane.background-color=#e5e5e5; rpane.rpanewindow.background-color=#e5e5e5;  rpane.textb.background-color=#FFFFFF; rpane.infob.background-color=#FFFFFF; rpane.forumb.background-color=#FFFFFF; rpane.rulesb.background-color=#cecece; rpane.mapb.background-color=#cecece; rpane.github.background-color=#FFFFFF; rpane.changelog.background-color=#FFFFFF; rpane.wikib.background-color=#FFFFFF; rpane.browseb.background-color=#FFFFFF;  rpane.textb.text-color=#000000; rpane.infob.text-color=#000000; rpane.forumb.text-color=#000000; rpane.rulesb.text-color=#000000; rpane.mapb.text-color=#000000; rpane.github.text-color=#000000; rpane.changelog.text-color=#000000; rpane.wikib.text-color=#000000; rpane.browseb.text-color=#000000;   mainwindow.background-color=#e5e5e5; mainwindow.input.background-color=#FFFFFF; mainwindow.oocbutton.background-color=#FFFFFF; mainwindow.loocbutton.background-color=#FFFFFF; mainwindow.saybutton.background-color=#FFFFFF; mainwindow.mebutton.background-color=#FFFFFF; mainwindow.nonebutton.background-color=#FFFFFF; mainwindow.hotkey_toggle.background-color=#FFFFFF; mainwindow.hotkey_toggle.text-color=#000000; mainwindow.input.text-color=#000000; mainwindow.oocbutton.text-color=#000000; mainwindow.loocbutton.text-color=#000000; mainwindow.saybutton.text-color=#000000; mainwindow.mebutton.text-color=#000000; mainwindow.nonebutton.text-color=#000000; \""
 		category = "UI Theme"
 		can-check = true
 		group = "ui_style"
 		saved-params = "is-checked"
 	elem 
 		name = "Dark Theme"
-		command = ".winset \" infowindow.info.background-color=#161616; infowindow.background-color=#161616; infowindow.info.text-color = #FFFFFF infowindow.info.tab-text-color = #FFFFFF infowindow.info.tab-background-color = #161616 rpane.background-color=#161616; rpane.rpanewindow.background-color=#161616;  rpane.textb.background-color=#2d2d2d; rpane.infob.background-color=#2d2d2d; rpane.forumb.background-color=#2d2d2d; rpane.rulesb.background-color=#444444; rpane.mapb.background-color=#444444; rpane.github.background-color=#2d2d2d; rpane.changelog.background-color=#2d2d2d; rpane.wikib.background-color=#2d2d2d; rpane.browseb.background-color=#2d2d2d;  rpane.textb.text-color=#FFFFFF; rpane.infob.text-color=#FFFFFF; rpane.forumb.text-color=#FFFFFF; rpane.rulesb.text-color=#FFFFFF; rpane.mapb.text-color=#FFFFFF; rpane.github.text-color=#FFFFFF; rpane.changelog.text-color=#FFFFFF; rpane.wikib.text-color=#FFFFFF; rpane.browseb.text-color=#FFFFFF;   mainwindow.background-color=#161616; mainwindow.input.background-color=#2d2d2d; mainwindow.oocbutton.background-color=#2d2d2d; mainwindow.loocbutton.background-color=#2d2d2d; mainwindow.saybutton.background-color=#2d2d2d; mainwindow.mebutton.background-color=#2d2d2d; mainwindow.nonebutton.background-color=#2d2d2d; mainwindow.hotkey_toggle.background-color=#2d2d2d; mainwindow.hotkey_toggle.text-color=#FFFFFF; mainwindow.input.text-color=#FFFFFF; mainwindow.oocbutton.text-color=#FFFFFF; mainwindow.loocbutton.text-color=#FFFFFF; mainwindow.saybutton.text-color=#FFFFFF; mainwindow.mebutton.text-color=#FFFFFF; mainwindow.nonebutton.text-color=#FFFFFF;"
+		command = ".winset \" infowindow.info.background-color=#161616; infowindow.background-color=#161616; infowindow.info.text-color = #FFFFFF; infowindow.info.tab-text-color = #FFFFFF; infowindow.info.tab-background-color = #161616 rpane.background-color=#161616; rpane.rpanewindow.background-color=#161616;  rpane.textb.background-color=#2d2d2d; rpane.infob.background-color=#2d2d2d; rpane.forumb.background-color=#2d2d2d; rpane.rulesb.background-color=#444444; rpane.mapb.background-color=#444444; rpane.github.background-color=#2d2d2d; rpane.changelog.background-color=#2d2d2d; rpane.wikib.background-color=#2d2d2d; rpane.browseb.background-color=#2d2d2d;  rpane.textb.text-color=#FFFFFF; rpane.infob.text-color=#FFFFFF; rpane.forumb.text-color=#FFFFFF; rpane.rulesb.text-color=#FFFFFF; rpane.mapb.text-color=#FFFFFF; rpane.github.text-color=#FFFFFF; rpane.changelog.text-color=#FFFFFF; rpane.wikib.text-color=#FFFFFF; rpane.browseb.text-color=#FFFFFF;   mainwindow.background-color=#161616; mainwindow.input.background-color=#2d2d2d; mainwindow.oocbutton.background-color=#2d2d2d; mainwindow.loocbutton.background-color=#2d2d2d; mainwindow.saybutton.background-color=#2d2d2d; mainwindow.mebutton.background-color=#2d2d2d; mainwindow.nonebutton.background-color=#2d2d2d; mainwindow.hotkey_toggle.background-color=#2d2d2d; mainwindow.hotkey_toggle.text-color=#FFFFFF; mainwindow.input.text-color=#FFFFFF; mainwindow.oocbutton.text-color=#FFFFFF; mainwindow.loocbutton.text-color=#FFFFFF; mainwindow.saybutton.text-color=#FFFFFF; mainwindow.mebutton.text-color=#FFFFFF; mainwindow.nonebutton.text-color=#FFFFFF; \""
 		category = "UI Theme"
 		can-check = true
 		group = "ui_style"
 		saved-params = "is-checked"
 	elem 
 		name = "Blue Theme"
-		command = ".winset \" infowindow.info.background-color=#0a1c2b; infowindow.background-color=#0a1c2b; infowindow.info.tab-text-color = #ffecd6 infowindow.info.tab-background-color = #0a1c2b rpane.background-color=#0a1c2b; rpane.rpanewindow.background-color=#0a1c2b;  rpane.textb.background-color=#373443; rpane.infob.background-color=#373443; rpane.forumb.background-color=#373443; rpane.rulesb.background-color=#5A454F; rpane.mapb.background-color=#5A454F; rpane.github.background-color=#373443; rpane.changelog.background-color=#373443; rpane.wikib.background-color=#373443; rpane.browseb.background-color=#373443;  rpane.textb.text-color=#ffecd6; rpane.infob.text-color=#ffecd6; rpane.forumb.text-color=#ffecd6; rpane.rulesb.text-color=#ffecd6; rpane.mapb.text-color=#ffecd6; rpane.github.text-color=#ffecd6; rpane.changelog.text-color=#ffecd6; rpane.wikib.text-color=#ffecd6; rpane.browseb.text-color=#ffecd6;  mainwindow.background-color=#0a1c2b; mainwindow.input.background-color=#172736; mainwindow.oocbutton.background-color=#373443; mainwindow.loocbutton.background-color=#373443; mainwindow.saybutton.background-color=#373443; mainwindow.mebutton.background-color=#373443; mainwindow.nonebutton.background-color=#373443; mainwindow.hotkey_toggle.background-color=#172736;  mainwindow.input.text-color=#ffecd6; mainwindow.oocbutton.text-color=#F2EAB7; mainwindow.loocbutton.text-color=#F2EAB7; mainwindow.saybutton.text-color=#F2EAB7; mainwindow.mebutton.text-color=#F2EAB7; mainwindow.nonebutton.text-color=#F2EAB7; mainwindow.hotkey_toggle.text-color=#ffecd6; \""
+		command = ".winset \" infowindow.info.background-color=#0a1c2b; infowindow.background-color=#0a1c2b; infowindow.info.tab-text-color=#ffecd6; infowindow.info.tab-background-color=#0a1c2b rpane.background-color=#0a1c2b; rpane.rpanewindow.background-color=#0a1c2b;  rpane.textb.background-color=#373443; rpane.infob.background-color=#373443; rpane.forumb.background-color=#373443; rpane.rulesb.background-color=#5A454F; rpane.mapb.background-color=#5A454F; rpane.github.background-color=#373443; rpane.changelog.background-color=#373443; rpane.wikib.background-color=#373443; rpane.browseb.background-color=#373443;  rpane.textb.text-color=#ffecd6; rpane.infob.text-color=#ffecd6; rpane.forumb.text-color=#ffecd6; rpane.rulesb.text-color=#ffecd6; rpane.mapb.text-color=#ffecd6; rpane.github.text-color=#ffecd6; rpane.changelog.text-color=#ffecd6; rpane.wikib.text-color=#ffecd6; rpane.browseb.text-color=#ffecd6;  mainwindow.background-color=#0a1c2b; mainwindow.input.background-color=#172736; mainwindow.oocbutton.background-color=#373443; mainwindow.loocbutton.background-color=#373443; mainwindow.saybutton.background-color=#373443; mainwindow.mebutton.background-color=#373443; mainwindow.nonebutton.background-color=#373443; mainwindow.hotkey_toggle.background-color=#172736;  mainwindow.input.text-color=#ffecd6; mainwindow.oocbutton.text-color=#F2EAB7; mainwindow.loocbutton.text-color=#F2EAB7; mainwindow.saybutton.text-color=#F2EAB7; mainwindow.mebutton.text-color=#F2EAB7; mainwindow.nonebutton.text-color=#F2EAB7; mainwindow.hotkey_toggle.text-color=#ffecd6; \""
 		category = "UI Theme"
 		is-checked = true
 		can-check = true
 		group = "ui_style"
+		saved-params = "is-checked"
+	elem 
+		name = ""
+		command = ""
+		category = "UI Theme"
+		saved-params = "is-checked"
+	elem ".winset \\\"mapwindow.map.zoom-mode=distort\\\""
+		name = "Nearest-Neighbor"
+		command = ""
+		category = "UI Theme"
+		is-checked = true
+		can-check = true
+		group = "scale"
+		saved-params = "is-checked"
+	elem ".winset \\\"mapwindow.map.zoom-mode=normal\\\""
+		name = "Point-Sampling"
+		command = ""
+		category = "UI Theme"
+		can-check = true
+		group = "scale"
+		saved-params = "is-checked"
+	elem 
+		name = "Bilinear"
+		command = ".winset \\\"mapwindow.map.zoom-mode=blur\\\""
+		category = "UI Theme"
+		can-check = true
+		group = "scale"
 		saved-params = "is-checked"
 	elem 
 		name = "&Help"
@@ -1179,8 +1206,6 @@ window "mainwindow"
 		icon = 'icons\\ws_64.png'
 		macro = "macro"
 		menu = "menu"
-		outer-size = 816x677
-		inner-size = 800x619
 	elem "oocbutton"
 		type = BUTTON
 		pos = 4,575
@@ -1276,7 +1301,6 @@ window "mainwindow"
 		size = 800x550
 		anchor1 = 0,0
 		anchor2 = 100,100
-		background-color = none
 		saved-params = "splitter"
 		right = "rpane"
 		is-vert = true
