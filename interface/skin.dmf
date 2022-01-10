@@ -917,12 +917,15 @@ window "Telecomms IDE"
 		title = "TCS IDE"
 		statusbar = false
 		on-close = "exittcs"
+		outer-size = 585x620
+		inner-size = 569x582
 	elem "button5"
 		type = BUTTON
 		pos = 209,464
 		size = 70x20
 		anchor1 = 37,80
 		anchor2 = 49,83
+		background-color = none
 		saved-params = "is-checked"
 		text = "Clear Memory"
 		command = "tcsclearmem"
@@ -932,6 +935,7 @@ window "Telecomms IDE"
 		size = 52x20
 		anchor1 = 28,80
 		anchor2 = 37,83
+		background-color = none
 		saved-params = "is-checked"
 		text = "Revert"
 		command = "tcsrevert"
@@ -941,6 +945,7 @@ window "Telecomms IDE"
 		size = 52x20
 		anchor1 = 18,80
 		anchor2 = 28,83
+		background-color = none
 		saved-params = "is-checked"
 		text = "Execute"
 		command = "tcsrun"
@@ -959,6 +964,7 @@ window "Telecomms IDE"
 		size = 52x20
 		anchor1 = 9,80
 		anchor2 = 18,83
+		background-color = none
 		saved-params = "is-checked"
 		text = "Compile"
 		command = "tcscompile"
@@ -968,6 +974,7 @@ window "Telecomms IDE"
 		size = 53x20
 		anchor1 = 0,80
 		anchor2 = 9,83
+		background-color = none
 		saved-params = "is-checked"
 		text = "Apply"
 		command = "tcssave"
@@ -991,16 +998,20 @@ window "chemdispenser"
 		size = 340x480
 		anchor1 = -1,-1
 		anchor2 = -1,-1
+		background-color = none
 		is-visible = false
 		saved-params = "pos;size;is-minimized;is-maximized"
 		title = "Chem Dispenser"
 		statusbar = false
+		outer-size = 356x518
+		inner-size = 340x480
 	elem "energy"
 		type = LABEL
 		pos = 8,24
 		size = 56x16
 		anchor1 = -1,-1
 		anchor2 = -1,-1
+		background-color = none
 		saved-params = ""
 		text = "Energy: 25"
 	elem "eject"
@@ -1009,6 +1020,7 @@ window "chemdispenser"
 		size = 72x20
 		anchor1 = -1,-1
 		anchor2 = -1,-1
+		background-color = none
 		saved-params = "is-checked"
 		text = "[Insert beaker]"
 		command = "skincmd \"chemdispenser;eject\""
@@ -1018,6 +1030,7 @@ window "chemdispenser"
 		size = 48x20
 		anchor1 = -1,-1
 		anchor2 = -1,-1
+		background-color = none
 		saved-params = "is-checked"
 		text = "[Other]"
 		command = "skincmd \"chemdispenser;amountc\""
@@ -1027,6 +1040,7 @@ window "chemdispenser"
 		size = 24x20
 		anchor1 = -1,-1
 		anchor2 = -1,-1
+		background-color = none
 		saved-params = "is-checked"
 		text = "[30]"
 		command = "skincmd \"chemdispenser;amount30\""
@@ -1036,6 +1050,7 @@ window "chemdispenser"
 		size = 24x20
 		anchor1 = -1,-1
 		anchor2 = -1,-1
+		background-color = none
 		saved-params = "is-checked"
 		text = "[20]"
 		command = "skincmd \"chemdispenser;amount20\""
@@ -1045,6 +1060,7 @@ window "chemdispenser"
 		size = 24x20
 		anchor1 = -1,-1
 		anchor2 = -1,-1
+		background-color = none
 		saved-params = "is-checked"
 		text = "[10]"
 		command = "skincmd \"chemdispenser;amount10\""
@@ -1055,6 +1071,7 @@ window "chemdispenser"
 		anchor1 = -1,-1
 		anchor2 = -1,-1
 		font-size = 12
+		background-color = none
 		saved-params = ""
 		text = "Amount: 30"
 	elem "child1"
@@ -1063,6 +1080,7 @@ window "chemdispenser"
 		size = 340x440
 		anchor1 = -1,-1
 		anchor2 = -1,-1
+		background-color = none
 		saved-params = "splitter"
 		left = "chemdispenser_reagents"
 		is-vert = false
@@ -1074,6 +1092,7 @@ window "chemdispenser_reagents"
 		size = 340x448
 		anchor1 = -1,-1
 		anchor2 = -1,-1
+		background-color = none
 		saved-params = "pos;size;is-minimized;is-maximized"
 		titlebar = false
 		statusbar = false
@@ -1082,12 +1101,15 @@ window "chemdispenser_reagents"
 		can-resize = false
 		is-pane = true
 		can-scroll = vertical
+		outer-size = 354x462
+		inner-size = 340x448
 	elem "template_dispense"
 		type = BUTTON
 		pos = 256,8
 		size = 64x32
 		anchor1 = -1,-1
 		anchor2 = -1,-1
+		background-color = none
 		is-visible = false
 		saved-params = "is-checked"
 		text = "Dispense"
@@ -1101,6 +1123,7 @@ window "chemdispenser_reagents"
 		anchor1 = -1,-1
 		anchor2 = -1,-1
 		font-size = 15
+		background-color = none
 		is-visible = false
 		saved-params = ""
 		text = "Chloral Hydrate"
@@ -1143,7 +1166,7 @@ window "infowindow"
 window "mainwindow"
 	elem "mainwindow"
 		type = MAIN
-		pos = 281,0
+		pos = 992,125
 		size = 800x600
 		anchor1 = -1,-1
 		anchor2 = -1,-1
@@ -1154,6 +1177,8 @@ window "mainwindow"
 		icon = 'icons\\ws_64.png'
 		macro = "macro"
 		menu = "menu"
+		outer-size = 816x677
+		inner-size = 800x619
 	elem "loocbutton"
 		type = BUTTON
 		pos = 64,575
@@ -1163,7 +1188,7 @@ window "mainwindow"
 		text-color = #f2eab7
 		background-color = #373443
 		border = line
-		saved-params = "is-checked"
+		saved-params = ""
 		text = "LOOC"
 		command = ".winset \"loocbutton.is-checked=true?input.command=\"!looc \\\"\" macrobutton.is-checked=false:input.command=\""
 		is-flat = true
@@ -1178,7 +1203,7 @@ window "mainwindow"
 		text-color = #ffecd6
 		background-color = #373443
 		border = line
-		saved-params = "is-checked"
+		saved-params = ""
 		text = "None"
 		command = ".winset \"nonebutton.is-checked=true?input.command=\"\" macrobutton.is-checked=false:input.command=\""
 		is-flat = true
@@ -1193,7 +1218,7 @@ window "mainwindow"
 		text-color = #ffecd6
 		background-color = #373443
 		border = line
-		saved-params = "is-checked"
+		saved-params = ""
 		text = "Me"
 		command = ".winset \"mebutton.is-checked=true?input.command=\"!me \\\"\" macrobutton.is-checked=false:input.command=\""
 		is-flat = true
@@ -1208,7 +1233,7 @@ window "mainwindow"
 		text-color = #f2eab7
 		background-color = #373443
 		border = line
-		saved-params = "is-checked"
+		saved-params = ""
 		text = "OOC"
 		command = ".winset \"oocbutton.is-checked=true?input.command=\"!ooc \\\"\" macrobutton.is-checked=false:input.command=\""
 		is-flat = true
@@ -1234,6 +1259,7 @@ window "mainwindow"
 		size = 800x560
 		anchor1 = 0,0
 		anchor2 = 100,100
+		background-color = none
 		saved-params = "splitter"
 		right = "rpane"
 		is-vert = true
@@ -1332,9 +1358,12 @@ window "popupwindow"
 		size = 120x120
 		anchor1 = -1,-1
 		anchor2 = -1,-1
+		background-color = none
 		is-visible = false
 		saved-params = "pos;size;is-minimized;is-maximized"
 		statusbar = false
+		outer-size = 136x158
+		inner-size = 120x120
 
 window "rpane"
 	elem "rpane"
@@ -1487,9 +1516,12 @@ window "browserwindow"
 		size = 640x480
 		anchor1 = -1,-1
 		anchor2 = -1,-1
+		background-color = none
 		saved-params = "pos;size;is-minimized;is-maximized"
 		title = "Browser"
 		is-pane = true
+		outer-size = 656x537
+		inner-size = 640x499
 	elem "browser"
 		type = BROWSER
 		pos = 0,0
