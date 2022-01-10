@@ -1273,7 +1273,7 @@ window "mainwindow"
 	elem "mainvsplit"
 		type = CHILD
 		pos = 0,0
-		size = 800x560
+		size = 800x550
 		anchor1 = 0,0
 		anchor2 = 100,100
 		background-color = none
