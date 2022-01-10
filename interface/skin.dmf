@@ -889,6 +889,32 @@ menu "menu"
 		can-check = true
 		saved-params = "is-checked"
 	elem 
+		name = "UI Theme"
+		command = ""
+		saved-params = "is-checked"
+	elem 
+		name = "Light Theme"
+		command = ".winset \" infowindow.info.background-color=#e5e5e5; infowindow.background-color=#e5e5e5; infowindow.info.text-color = #000000 infowindow.info.tab-text-color = #000000 infowindow.info.tab-background-color = #e5e5e5 rpane.background-color=#e5e5e5; rpane.rpanewindow.background-color=#e5e5e5;  rpane.textb.background-color=#FFFFFF; rpane.infob.background-color=#FFFFFF; rpane.forumb.background-color=#FFFFFF; rpane.rulesb.background-color=#cecece; rpane.mapb.background-color=#cecece; rpane.github.background-color=#FFFFFF; rpane.changelog.background-color=#FFFFFF; rpane.wikib.background-color=#FFFFFF; rpane.browseb.background-color=#FFFFFF;  rpane.textb.text-color=#000000; rpane.infob.text-color=#000000; rpane.forumb.text-color=#000000; rpane.rulesb.text-color=#000000; rpane.mapb.text-color=#000000; rpane.github.text-color=#000000; rpane.changelog.text-color=#000000; rpane.wikib.text-color=#000000; rpane.browseb.text-color=#000000;   mainwindow.background-color=#e5e5e5; mainwindow.input.background-color=#FFFFFF; mainwindow.oocbutton.background-color=#FFFFFF; mainwindow.loocbutton.background-color=#FFFFFF; mainwindow.saybutton.background-color=#FFFFFF; mainwindow.mebutton.background-color=#FFFFFF; mainwindow.nonebutton.background-color=#FFFFFF; mainwindow.hotkey_toggle.background-color=#FFFFFF; mainwindow.hotkey_toggle.text-color=#000000; mainwindow.input.text-color=#000000; mainwindow.oocbutton.text-color=#000000; mainwindow.loocbutton.text-color=#000000; mainwindow.saybutton.text-color=#000000; mainwindow.mebutton.text-color=#000000; mainwindow.nonebutton.text-color=#000000; \""
+		category = "UI Theme"
+		can-check = true
+		group = "ui_style"
+		saved-params = "is-checked"
+	elem 
+		name = "Dark Theme"
+		command = ".winset \" infowindow.info.background-color=#161616; infowindow.background-color=#161616; infowindow.info.text-color = #FFFFFF infowindow.info.tab-text-color = #FFFFFF infowindow.info.tab-background-color = #161616 rpane.background-color=#161616; rpane.rpanewindow.background-color=#161616;  rpane.textb.background-color=#2d2d2d; rpane.infob.background-color=#2d2d2d; rpane.forumb.background-color=#2d2d2d; rpane.rulesb.background-color=#444444; rpane.mapb.background-color=#444444; rpane.github.background-color=#2d2d2d; rpane.changelog.background-color=#2d2d2d; rpane.wikib.background-color=#2d2d2d; rpane.browseb.background-color=#2d2d2d;  rpane.textb.text-color=#FFFFFF; rpane.infob.text-color=#FFFFFF; rpane.forumb.text-color=#FFFFFF; rpane.rulesb.text-color=#FFFFFF; rpane.mapb.text-color=#FFFFFF; rpane.github.text-color=#FFFFFF; rpane.changelog.text-color=#FFFFFF; rpane.wikib.text-color=#FFFFFF; rpane.browseb.text-color=#FFFFFF;   mainwindow.background-color=#161616; mainwindow.input.background-color=#2d2d2d; mainwindow.oocbutton.background-color=#2d2d2d; mainwindow.loocbutton.background-color=#2d2d2d; mainwindow.saybutton.background-color=#2d2d2d; mainwindow.mebutton.background-color=#2d2d2d; mainwindow.nonebutton.background-color=#2d2d2d; mainwindow.hotkey_toggle.background-color=#2d2d2d; mainwindow.hotkey_toggle.text-color=#FFFFFF; mainwindow.input.text-color=#FFFFFF; mainwindow.oocbutton.text-color=#FFFFFF; mainwindow.loocbutton.text-color=#FFFFFF; mainwindow.saybutton.text-color=#FFFFFF; mainwindow.mebutton.text-color=#FFFFFF; mainwindow.nonebutton.text-color=#FFFFFF;"
+		category = "UI Theme"
+		can-check = true
+		group = "ui_style"
+		saved-params = "is-checked"
+	elem 
+		name = "Blue Theme"
+		command = ".winset \" infowindow.info.background-color=#0a1c2b; infowindow.background-color=#0a1c2b; infowindow.info.tab-text-color = #ffecd6 infowindow.info.tab-background-color = #0a1c2b rpane.background-color=#0a1c2b; rpane.rpanewindow.background-color=#0a1c2b;  rpane.textb.background-color=#373443; rpane.infob.background-color=#373443; rpane.forumb.background-color=#373443; rpane.rulesb.background-color=#5A454F; rpane.mapb.background-color=#5A454F; rpane.github.background-color=#373443; rpane.changelog.background-color=#373443; rpane.wikib.background-color=#373443; rpane.browseb.background-color=#373443;  rpane.textb.text-color=#ffecd6; rpane.infob.text-color=#ffecd6; rpane.forumb.text-color=#ffecd6; rpane.rulesb.text-color=#ffecd6; rpane.mapb.text-color=#ffecd6; rpane.github.text-color=#ffecd6; rpane.changelog.text-color=#ffecd6; rpane.wikib.text-color=#ffecd6; rpane.browseb.text-color=#ffecd6;  mainwindow.background-color=#0a1c2b; mainwindow.input.background-color=#172736; mainwindow.oocbutton.background-color=#373443; mainwindow.loocbutton.background-color=#373443; mainwindow.saybutton.background-color=#373443; mainwindow.mebutton.background-color=#373443; mainwindow.nonebutton.background-color=#373443; mainwindow.hotkey_toggle.background-color=#172736;  mainwindow.input.text-color=#ffecd6; mainwindow.oocbutton.text-color=#F2EAB7; mainwindow.loocbutton.text-color=#F2EAB7; mainwindow.saybutton.text-color=#F2EAB7; mainwindow.mebutton.text-color=#F2EAB7; mainwindow.nonebutton.text-color=#F2EAB7; mainwindow.hotkey_toggle.text-color=#ffecd6; \""
+		category = "UI Theme"
+		is-checked = true
+		can-check = true
+		group = "ui_style"
+		saved-params = "is-checked"
+	elem 
 		name = "&Help"
 		command = ""
 		saved-params = "is-checked"
@@ -917,15 +943,12 @@ window "Telecomms IDE"
 		title = "TCS IDE"
 		statusbar = false
 		on-close = "exittcs"
-		outer-size = 585x620
-		inner-size = 569x582
 	elem "button5"
 		type = BUTTON
 		pos = 209,464
 		size = 70x20
 		anchor1 = 37,80
 		anchor2 = 49,83
-		background-color = none
 		saved-params = "is-checked"
 		text = "Clear Memory"
 		command = "tcsclearmem"
@@ -935,7 +958,6 @@ window "Telecomms IDE"
 		size = 52x20
 		anchor1 = 28,80
 		anchor2 = 37,83
-		background-color = none
 		saved-params = "is-checked"
 		text = "Revert"
 		command = "tcsrevert"
@@ -945,7 +967,6 @@ window "Telecomms IDE"
 		size = 52x20
 		anchor1 = 18,80
 		anchor2 = 28,83
-		background-color = none
 		saved-params = "is-checked"
 		text = "Execute"
 		command = "tcsrun"
@@ -964,7 +985,6 @@ window "Telecomms IDE"
 		size = 52x20
 		anchor1 = 9,80
 		anchor2 = 18,83
-		background-color = none
 		saved-params = "is-checked"
 		text = "Compile"
 		command = "tcscompile"
@@ -974,7 +994,6 @@ window "Telecomms IDE"
 		size = 53x20
 		anchor1 = 0,80
 		anchor2 = 9,83
-		background-color = none
 		saved-params = "is-checked"
 		text = "Apply"
 		command = "tcssave"
@@ -998,20 +1017,16 @@ window "chemdispenser"
 		size = 340x480
 		anchor1 = -1,-1
 		anchor2 = -1,-1
-		background-color = none
 		is-visible = false
 		saved-params = "pos;size;is-minimized;is-maximized"
 		title = "Chem Dispenser"
 		statusbar = false
-		outer-size = 356x518
-		inner-size = 340x480
 	elem "energy"
 		type = LABEL
 		pos = 8,24
 		size = 56x16
 		anchor1 = -1,-1
 		anchor2 = -1,-1
-		background-color = none
 		saved-params = ""
 		text = "Energy: 25"
 	elem "eject"
@@ -1020,7 +1035,6 @@ window "chemdispenser"
 		size = 72x20
 		anchor1 = -1,-1
 		anchor2 = -1,-1
-		background-color = none
 		saved-params = "is-checked"
 		text = "[Insert beaker]"
 		command = "skincmd \"chemdispenser;eject\""
@@ -1030,7 +1044,6 @@ window "chemdispenser"
 		size = 48x20
 		anchor1 = -1,-1
 		anchor2 = -1,-1
-		background-color = none
 		saved-params = "is-checked"
 		text = "[Other]"
 		command = "skincmd \"chemdispenser;amountc\""
@@ -1040,7 +1053,6 @@ window "chemdispenser"
 		size = 24x20
 		anchor1 = -1,-1
 		anchor2 = -1,-1
-		background-color = none
 		saved-params = "is-checked"
 		text = "[30]"
 		command = "skincmd \"chemdispenser;amount30\""
@@ -1050,7 +1062,6 @@ window "chemdispenser"
 		size = 24x20
 		anchor1 = -1,-1
 		anchor2 = -1,-1
-		background-color = none
 		saved-params = "is-checked"
 		text = "[20]"
 		command = "skincmd \"chemdispenser;amount20\""
@@ -1060,7 +1071,6 @@ window "chemdispenser"
 		size = 24x20
 		anchor1 = -1,-1
 		anchor2 = -1,-1
-		background-color = none
 		saved-params = "is-checked"
 		text = "[10]"
 		command = "skincmd \"chemdispenser;amount10\""
@@ -1071,7 +1081,6 @@ window "chemdispenser"
 		anchor1 = -1,-1
 		anchor2 = -1,-1
 		font-size = 12
-		background-color = none
 		saved-params = ""
 		text = "Amount: 30"
 	elem "child1"
@@ -1080,7 +1089,6 @@ window "chemdispenser"
 		size = 340x440
 		anchor1 = -1,-1
 		anchor2 = -1,-1
-		background-color = none
 		saved-params = "splitter"
 		left = "chemdispenser_reagents"
 		is-vert = false
@@ -1092,7 +1100,6 @@ window "chemdispenser_reagents"
 		size = 340x448
 		anchor1 = -1,-1
 		anchor2 = -1,-1
-		background-color = none
 		saved-params = "pos;size;is-minimized;is-maximized"
 		titlebar = false
 		statusbar = false
@@ -1101,15 +1108,12 @@ window "chemdispenser_reagents"
 		can-resize = false
 		is-pane = true
 		can-scroll = vertical
-		outer-size = 354x462
-		inner-size = 340x448
 	elem "template_dispense"
 		type = BUTTON
 		pos = 256,8
 		size = 64x32
 		anchor1 = -1,-1
 		anchor2 = -1,-1
-		background-color = none
 		is-visible = false
 		saved-params = "is-checked"
 		text = "Dispense"
@@ -1123,7 +1127,6 @@ window "chemdispenser_reagents"
 		anchor1 = -1,-1
 		anchor2 = -1,-1
 		font-size = 15
-		background-color = none
 		is-visible = false
 		saved-params = ""
 		text = "Chloral Hydrate"
@@ -1146,7 +1149,6 @@ window "infowindow"
 		can-minimize = false
 		can-resize = false
 		is-pane = true
-		outer-size = 654x494
 	elem "info"
 		type = INFO
 		pos = 0,0
@@ -1166,7 +1168,7 @@ window "infowindow"
 window "mainwindow"
 	elem "mainwindow"
 		type = MAIN
-		pos = 992,125
+		pos = 281,0
 		size = 800x600
 		anchor1 = -1,-1
 		anchor2 = -1,-1
@@ -1179,6 +1181,21 @@ window "mainwindow"
 		menu = "menu"
 		outer-size = 816x677
 		inner-size = 800x619
+	elem "oocbutton"
+		type = BUTTON
+		pos = 4,575
+		size = 56x20
+		anchor1 = 0,100
+		anchor2 = -1,-1
+		text-color = #f2eab7
+		background-color = #373443
+		border = line
+		saved-params = ""
+		text = "OOC"
+		command = ".winset \"oocbutton.is-checked=true?input.command=\"!ooc \\\"\" macrobutton.is-checked=false:input.command=\""
+		is-flat = true
+		group = "chat_options"
+		button-type = pushbox
 	elem "loocbutton"
 		type = BUTTON
 		pos = 64,575
@@ -1194,9 +1211,9 @@ window "mainwindow"
 		is-flat = true
 		group = "chat_options"
 		button-type = pushbox
-	elem "nonebutton"
+	elem "saybutton"
 		type = BUTTON
-		pos = 184,575
+		pos = 124,575
 		size = 56x20
 		anchor1 = 0,100
 		anchor2 = -1,-1
@@ -1204,14 +1221,14 @@ window "mainwindow"
 		background-color = #373443
 		border = line
 		saved-params = ""
-		text = "None"
-		command = ".winset \"nonebutton.is-checked=true?input.command=\"\" macrobutton.is-checked=false:input.command=\""
+		text = "Say"
+		command = ".winset \"saybutton.is-checked=true?input.command=\"!say \\\"\" macrobutton.is-checked=false:input.command=\""
 		is-flat = true
 		group = "chat_options"
 		button-type = pushbox
 	elem "mebutton"
 		type = BUTTON
-		pos = 124,575
+		pos = 184,575
 		size = 56x20
 		anchor1 = 0,100
 		anchor2 = -1,-1
@@ -1224,18 +1241,18 @@ window "mainwindow"
 		is-flat = true
 		group = "chat_options"
 		button-type = pushbox
-	elem "oocbutton"
+	elem "nonebutton"
 		type = BUTTON
-		pos = 4,575
+		pos = 244,575
 		size = 56x20
 		anchor1 = 0,100
 		anchor2 = -1,-1
-		text-color = #f2eab7
+		text-color = #ffecd6
 		background-color = #373443
 		border = line
 		saved-params = ""
-		text = "OOC"
-		command = ".winset \"oocbutton.is-checked=true?input.command=\"!ooc \\\"\" macrobutton.is-checked=false:input.command=\""
+		text = "None"
+		command = ".winset \"nonebutton.is-checked=true?input.command=\"\" macrobutton.is-checked=false:input.command=\""
 		is-flat = true
 		group = "chat_options"
 		button-type = pushbox
@@ -1358,12 +1375,9 @@ window "popupwindow"
 		size = 120x120
 		anchor1 = -1,-1
 		anchor2 = -1,-1
-		background-color = none
 		is-visible = false
 		saved-params = "pos;size;is-minimized;is-maximized"
 		statusbar = false
-		outer-size = 136x158
-		inner-size = 120x120
 
 window "rpane"
 	elem "rpane"
@@ -1381,8 +1395,6 @@ window "rpane"
 		can-resize = false
 		is-pane = true
 		transparent-color = #000000
-		outer-size = 613x488
-		inner-size = 599x474
 	elem "rpanewindow"
 		type = CHILD
 		pos = 1,0
@@ -1516,12 +1528,9 @@ window "browserwindow"
 		size = 640x480
 		anchor1 = -1,-1
 		anchor2 = -1,-1
-		background-color = none
 		saved-params = "pos;size;is-minimized;is-maximized"
 		title = "Browser"
 		is-pane = true
-		outer-size = 656x537
-		inner-size = 640x499
 	elem "browser"
 		type = BROWSER
 		pos = 0,0
