@@ -5,7 +5,7 @@
 	layer = MOB_LAYER + 1 // Need them on top of other mobs or it looks weird when consuming something.
 	ai_holder_type = /datum/ai_holder/simple_mob/xenobio_slime // This should never be changed for xenobio slimes.
 	var/is_adult = FALSE // Slimes turn into adults when fed enough. Adult slimes are somewhat stronger, and can reproduce if fed enough.
-	var/maxHealth_adult = 200
+	var/maxHealth_adult = 100
 	var/power_charge = 0 // Disarm attacks can shock someone if high/lucky enough.
 	var/mob/living/victim = null // the person the slime is currently feeding on
 	var/rainbow_core_candidate = TRUE // If false, rainbow cores cannot make this type randomly.
@@ -238,8 +238,8 @@
 	// First, get this slime's AI values since they are likely to be deleted in a moment.
 	if(src && src.has_AI())
 		var/datum/ai_holder/simple_mob/xenobio_slime/our_AI = ai_holder
-		new_discipline = max(our_AI.discipline - 1, 0)
-		new_obedience = max(our_AI.obedience - 1, 0)
+		new_discipline = max(our_AI.discipline - 100, 0)
+		new_obedience = max(our_AI.obedience - 1, 00)
 		new_resentment = max(our_AI.resentment - 1, 0)
 		new_rabid = our_AI.rabid
 
