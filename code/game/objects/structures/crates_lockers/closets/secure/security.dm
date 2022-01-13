@@ -138,6 +138,10 @@
 		new /obj/item/clothing/shoes/boots/winter/security(src)
 		new /obj/item/device/flashlight/maglight(src)
 		new /obj/item/weapon/stamp/hos(src)
+		new /obj/item/clothing/head/police/rangerchiefhat(src)
+		new /obj/item/clothing/under/rank/rangerchief(src)
+		new /obj/item/clothing/suit/security/chiefcoat(src)
+		new /obj/item/clothing/glasses/sunglasses/goldaviators(src)
 		return
 
 
