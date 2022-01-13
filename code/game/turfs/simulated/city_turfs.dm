@@ -48,11 +48,12 @@
 	icon_state = "road"
 	initial_flooring = /decl/flooring/road
 	outdoors = TRUE
-
 /turf/simulated/floor/road/empty
 	icon_state = "road_empty"
 	initial_flooring = /decl/flooring/road/empty
 
+/turf/simulated/floor/road/empty/indoors
+	outdoors = FALSE
 /turf/simulated/floor/road/corner
 	icon_state = "road_corner"
 	initial_flooring = /decl/flooring/road/corner
@@ -61,6 +62,8 @@
 	icon_state = "road_marking"
 	initial_flooring = /decl/flooring/road/markings
 
+/turf/simulated/floor/road/markings/indoors
+	outdoors = FALSE
 /turf/simulated/floor/road/garage
 	name = "garage floor"
 	icon_state = "garage"
